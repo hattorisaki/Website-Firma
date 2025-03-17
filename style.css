@@ -121,7 +121,7 @@ button:hover {
 
 /* Hero-Bereich */
 .hero {
-    background-image: url('bg_bathroom.jpg'); /* Hier den Pfad zum Hintergrundbild einfügen */
+    background-image: url('https://github.com/hattorisaki/Website-Firma/blob/main/bg_bathroom.jpg?raw=true'); /* Hier den Pfad zum Hintergrundbild einfügen */
     background-size: cover;
     background-position: center;
     color: white;
