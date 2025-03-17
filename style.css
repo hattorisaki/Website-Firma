@@ -119,42 +119,4 @@ button:hover {
     font-weight: bold;
 }
 
-/* Hero-Bereich */
-.hero {
-    background-image: url(''); /* Hier den Pfad zum Hintergrundbild einfügen */
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-    position: relative;
-}
-
-.hero .logo {
-    width: 300px; /* Passe die Größe des Logos an */
-    margin-bottom: 40px;
-}
-
-.hero h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.cta-button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-.cta-button:hover {
-    background-color: #555;
-}
 
