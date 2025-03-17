@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <h1>Kontakt</h1>
+    <div class="container">
+        <p>So können Sie uns erreichen:</p>
+        <p>📞 Telefon: 0123 456789</p>
+        <p>📧 E-Mail: info@trockenbaufirma.de</p>
+    </div>
+</body>
+</html>
