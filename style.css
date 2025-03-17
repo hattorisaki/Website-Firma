@@ -121,7 +121,7 @@ button:hover {
 
 /* Hero-Bereich */
 .hero {
-    background-image: url('https://github.com/hattorisaki/Website-Firma/blob/main/bg_bathroom.jpg?raw=true'); /* Hier den Pfad zum Hintergrundbild einfügen */
+    background-image: url(''); /* Hier den Pfad zum Hintergrundbild einfügen */
     background-size: cover;
     background-position: center;
     color: white;
@@ -131,8 +131,8 @@ button:hover {
 }
 
 .hero .logo {
-    width: 150px; /* Passe die Größe des Logos an */
-    margin-bottom: 20px;
+    width: 300px; /* Passe die Größe des Logos an */
+    margin-bottom: 40px;
 }
 
 .hero h2 {
