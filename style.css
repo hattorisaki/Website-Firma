@@ -91,3 +91,30 @@ button {
 button:hover {
     background-color: #555;
 }
+
+/* Leistungen-Bilder */
+.leistungen {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.leistung {
+    text-align: center;
+    max-width: 300px;
+}
+
+.leistung img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.leistung p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
