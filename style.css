@@ -112,3 +112,6 @@ nav ul li a {
     border-radius: 10px;
 }
 
+main {
+    padding-top: 50px; /* Weiterer Abstand zum Header */
+}
