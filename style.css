@@ -236,6 +236,16 @@ main {
     font-family: 'Playfair Display', serif; /* Ästhetische Schrift */
 }
 
+/* Standardmäßig ist das Icon unsichtbar */
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
 /* Smartphones: Text kleiner & mittiger */
 @media (max-width: 768px) {
     .hero-content {
@@ -258,14 +268,16 @@ main {
     }
 
     /* Navigation auf Mobilgeräten */
-    nav ul {
-        display: none; /* Versteckt die normale Navigation */
+   nav ul {
+        display: none; /* Standardmäßig ausgeblendet */
         flex-direction: column;
         background: white;
         position: absolute;
         top: 60px;
         left: 0;
         width: 100%;
+        padding: 10px 0;
+        text-align: center;
     }
 
     nav ul.show {
@@ -274,8 +286,6 @@ main {
 
     .menu-icon {
         display: block;
-        font-size: 2em;
-        cursor: pointer;
     }
 }
 
