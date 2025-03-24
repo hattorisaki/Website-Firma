@@ -5,10 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: #222;
-    color: white;
-}
+
 
 header {
     position: fixed;
@@ -129,24 +126,25 @@ body {
     padding: 0;
 }
 
-/* Stellt sicher, dass die 'Leistungen'-Sektion den gesamten Inhalt abdeckt */
+/* Stellt sicher, dass die gesamte Sektion genug Höhe hat und mittig ist */
 .leistungen {
     text-align: center;
-    margin-top: 50px; /* Abstand nach oben */
-    padding: 50px 0; /* Vertikaler Abstand um den gesamten Bereich */
-    background-color: #f0f0f0; /* Hellgrauer Hintergrund für diesen Bereich */
-    min-height: 100vh; /* Mindestens die Höhe des Viewports */
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    min-height: 100vh; /* Mindestens die gesamte Höhe des Bildschirms */
+    display: flex;
+    align-items: center; /* Vertikal zentrieren */
+    justify-content: center; /* Falls nötig, horizontal zentrieren */
 }
 
-/* Container für die drei Spalten */
+/* Container für die drei Kästen */
 .leistungen-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     max-width: 1200px;
-    margin: 0 auto;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    width: 100%;
+    align-items: center; /* Kästen mittig ausrichten */
 }
 
 /* Stil für die einzelnen Leistungseinträge */
@@ -158,17 +156,21 @@ body {
     overflow: hidden;
     margin-bottom: 20px;
     height: 400px;
+    background-color: white; /* Falls nötig, für bessere Lesbarkeit */
+    position: relative; /* Wichtig, um Überlappungen zu verhindern */
 }
 
-/* Stil für das Bild (75% der Höhe) */
+/* Bild mit korrekter Platzierung und Überlappungsvermeidung */
 .leistung-image {
     width: 100%;
     height: 75%;
     background-size: cover;
     background-position: center;
+    position: relative; /* Damit es sich nicht überlappt */
+    z-index: 1; /* Stellt sicher, dass das Bild unter dem Text bleibt */
 }
 
-/* Stil für die Info (25% der Höhe) */
+/* Infotext unten im Kasten */
 .leistung-info {
     padding: 20px;
     background-color: #ffffff;
@@ -176,8 +178,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    z-index: 2; /* Stellt sicher, dass der Text sichtbar bleibt */
+    position: relative;
 }
+
 
 footer {
     position: fixed;
