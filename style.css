@@ -79,13 +79,16 @@ nav ul li a {
 }
 
 .hero-content {
-    font-family: 'Playfair Display', serif; /* Ästhetische Schrift */
+    font-family: 'Noto Sans', sans-serif; /* Ästhetische Schrift */
+    font-variation-settings:
+        "wdth" 100;
     color: white;
     position: absolute;
     left: 10%; /* Weiter nach links verschieben */
     top: 50%;
     transform: translateY(-50%);
     text-align: left;
+    
 }
 
 .hero-content h1 {
