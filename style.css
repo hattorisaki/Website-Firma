@@ -155,20 +155,15 @@ body {
 }
 
 /* Container für die drei Kästen */
-/*.leistungen-container {
+/.leistungen-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     max-width: 1200px;
     width: 100%;
     align-items: center; /* Kästen mittig ausrichten */
-
-.leistungen-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 Spalten */
-    gap: 20px;
-    margin-top: 40px;
 }
+
 
 
 /* Stil für die einzelnen Leistungseinträge */
