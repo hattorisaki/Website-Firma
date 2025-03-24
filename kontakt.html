@@ -22,15 +22,29 @@
 
     <main>
         <section class="kontakt">
-            <h2>Kontaktieren Sie uns</h2>
-            <p>Wir freuen uns auf Ihre Anfrage. Kontaktieren Sie uns per E-Mail, Telefon oder WhatsApp.</p>
-
+    <h2>Kontaktieren Sie uns</h2>
+    <div class="kontakt-container">
+        <div class="kontakt-info">
+            <h3>So erreichen Sie uns</h3>
+            <p>Wir sind stets bereit, Ihre Anfragen zu beantworten.</p>
             <ul>
-                <li><strong>E-Mail:</strong> <a href="mailto:info@gheorghe-cainareanu.de">info@gheorghe-cainareanu.de</a></li>
-                <li><strong>Telefon:</strong> <a href="tel:+491234567890">+49 123 456 7890</a></li>
-                <li><strong>WhatsApp:</strong> <a href="https://wa.me/491234567890" target="_blank">Jetzt Nachricht senden</a></li>
+                <li><i class="fas fa-phone-alt"></i> <a href="tel:+123456789">+123 456 789</a></li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:info@gc-renovierungen.com">info@gc-renovierungen.com</a></li>
+                <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/123456789">Chat mit uns auf WhatsApp</a></li>
             </ul>
-        </section>
+        </div>
+
+        <div class="kontakt-formular">
+            <h3>Schreiben Sie uns</h3>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Ihr Name" required>
+                <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+                <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
+                <button type="submit" class="submit-btn">Nachricht senden</button>
+            </form>
+        </div>
+    </div>
+</section>
     </main>
 
     <footer>
