@@ -276,6 +276,9 @@ main {
     .menu-icon {
         display: block;
     }
+    .leistungen-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 Spalten */
+    }
 }
 
 
