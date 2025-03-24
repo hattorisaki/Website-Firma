@@ -132,11 +132,13 @@ nav ul li a {
     display: flex; /* Macht die drei 'Leistungen' nebeneinander */
     justify-content: space-between; /* Fügt Abstand zwischen den Spalten hinzu */
     gap: 20px; /* Abstand zwischen den einzelnen Spalten */
+    max-width: 1200px; /* Maximalbreite für den Container */
+    margin: 0 auto; /* Zentriert den Container */
 }
 
 /* Stil für die einzelnen Leistungseinträge */
 .leistung {
-    width: 32%; /* Jede Spalte nimmt 32% der Gesamtbreite ein */
+    width: 30%; /* Reduziert die Breite der Spalten auf 30% */
     display: flex;
     flex-direction: column;
     border-radius: 10px; /* Optional: abgerundete Ecken für die Boxen */
@@ -164,7 +166,7 @@ nav ul li a {
 
 /* Titel der Leistung */
 .leistung-info h2 {
-    font-size: 1.5em;
+    font-size: 1.2em; /* Kleinere Schrift für den Titel */
     margin-bottom: 10px;
 }
 
@@ -172,6 +174,31 @@ nav ul li a {
 .leistung-info p {
     font-size: 1em;
     color: #333;
+}
+
+/* Footer anpassen: */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em; /* Kleinere Schrift im Footer */
+}
+
+/* Sicherstellen, dass der Footer immer am unteren Rand bleibt */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Der Content-Bereich nimmt den verbleibenden Platz ein */
+main {
+    flex: 1;
 }
 
 
