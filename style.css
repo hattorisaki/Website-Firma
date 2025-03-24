@@ -22,6 +22,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     height: 90px; /* Größerer Header */
+    z-index: 10; /* Sicherstellen, dass der Header immer oben bleibt */
     box-shadow: none; /* Kein Balkeneffekt */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Dünne Linie für Struktur */
 }
