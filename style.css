@@ -394,6 +394,15 @@ main {
     .kontakt-formular {
         width: 100%;
     }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 
