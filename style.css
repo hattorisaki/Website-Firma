@@ -12,7 +12,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    background: white; /* Komplett weiß */
+    background: #f3f3f3; /* Komplett weiß */
     padding: 30px 50px; /* Weiter nach unten */
     display: flex;
     justify-content: flex-end;
@@ -236,6 +236,48 @@ main {
     font-family: 'Playfair Display', serif; /* Ästhetische Schrift */
 }
 
+/* Smartphones: Text kleiner & mittiger */
+@media (max-width: 768px) {
+    .hero-content {
+        left: 5%;   /* Mehr zur Mitte schieben */
+        top: 50%;
+        text-align: center;  /* Text zentrieren */
+    }
+
+    .hero-content h1 {
+        font-size: 2em;  /* Kleinere Schrift */
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    /* Navigation auf Mobilgeräten */
+    nav ul {
+        display: none; /* Versteckt die normale Navigation */
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    nav ul.show {
+        display: flex; /* Zeigt die Navigation an */
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+    }
+}
 
 
 
