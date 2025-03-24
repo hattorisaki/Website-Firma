@@ -152,7 +152,7 @@ nav ul li a {
 /* Stil für das Bild (75% der Höhe) */
 .leistung-image {
     width: 100%;
-    height: 75%; /* Bild nimmt 75% der Höhe der Box ein */
+    height: 200px; /* Höhe der Bilder fixiert */
     background-size: cover;
     background-position: center;
 }
