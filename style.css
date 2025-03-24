@@ -170,7 +170,7 @@ body {
     z-index: 1; /* Stellt sicher, dass das Bild unter dem Text bleibt */
 }
 
-/* Infotext unten im Kasten */
+/* Stil für die einzelnen Leistungseinträge */
 .leistung-info {
     padding: 20px;
     background-color: #ffffff;
@@ -179,11 +179,13 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Etwas größere Schrift */
     font-weight: bold;
-    z-index: 2; /* Stellt sicher, dass der Text sichtbar bleibt */
+    font-family: 'Playfair Display', serif; /* Beispiel für einen ästhetischen Font */
+    z-index: 2;
     position: relative;
 }
+
 
 
 footer {
