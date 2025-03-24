@@ -147,7 +147,7 @@ body {
 .leistungen {
     text-align: center;
     padding: 50px 0;
-    background-color: #d7d8da;
+    background-color: #7f8084;
     min-height: 100vh; /* Mindestens die gesamte Höhe des Bildschirms */
     display: flex;
     align-items: center; /* Vertikal zentrieren */
@@ -210,7 +210,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #7f8084;
+    background-color: #262526;
     color: white;
     text-align: center;
     padding: 10px 0;
