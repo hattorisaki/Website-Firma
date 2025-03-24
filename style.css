@@ -126,6 +126,7 @@ nav ul li a {
     text-align: center;
     margin-top: 50px; /* Abstand nach oben */
     padding: 50px 0; /* Vertikaler Abstand um den gesamten Bereich */
+    background-color: #f0f0f0; /* Hellgrauer Hintergrund */
 }
 
 /* Container für die drei Spalten */
@@ -135,7 +136,7 @@ nav ul li a {
     gap: 20px; /* Abstand zwischen den einzelnen Spalten */
     max-width: 1200px; /* Maximalbreite für den Container */
     margin: 0 auto; /* Zentriert den Container */
-    align-items: center; /* Vertikale Zentrierung der Spalten */
+    align-items: flex-start; /* Die Boxen nach oben ausrichten */
     flex-wrap: wrap; /* Zeilenumbruch, wenn der Platz nicht ausreicht */
 }
 
@@ -147,12 +148,13 @@ nav ul li a {
     border-radius: 10px; /* Optional: abgerundete Ecken für die Boxen */
     overflow: hidden; /* Verhindert, dass der Inhalt aus der Box überläuft */
     margin-bottom: 20px; /* Abstand nach unten */
+    height: 400px; /* Fixe Höhe für jedes Rechteck */
 }
 
 /* Stil für das Bild (75% der Höhe) */
 .leistung-image {
     width: 100%;
-    height: 200px; /* Höhe der Bilder fixiert */
+    height: 75%; /* Bild nimmt 75% der Höhe der Box ein */
     background-size: cover;
     background-position: center;
 }
@@ -160,7 +162,7 @@ nav ul li a {
 /* Stil für die Info (25% der Höhe) */
 .leistung-info {
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #ffffff; /* Weiße Hintergrundfarbe für die Info */
     height: 25%; /* Info-Bereich nimmt die restlichen 25% der Höhe ein */
     display: flex;
     flex-direction: column;
