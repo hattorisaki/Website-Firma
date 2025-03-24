@@ -21,6 +21,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     height: 90px; /* Größerer Header */
+    z-index: 10; /* Header immer oben */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Dünne Linie für Struktur */
 }
 
@@ -108,5 +109,17 @@ nav ul li a {
     height: auto;
     border-radius: 10px;
 }
+
+/* Hintergrund der Startseite */
+.home-background {
+    position: relative;
+    background-image: url('dein-bild.jpg'); /* Ersetze mit deinem echten Bild */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Vollbild */
+    padding-top: 90px; /* Abstand zum Header */
+    z-index: 1;
+}
+
 
 
