@@ -125,6 +125,7 @@ nav ul li a {
 .leistungen {
     text-align: center;
     margin-top: 50px; /* Abstand nach oben */
+    padding: 50px 0; /* Vertikaler Abstand um den gesamten Bereich */
 }
 
 /* Container für die drei Spalten */
@@ -134,6 +135,8 @@ nav ul li a {
     gap: 20px; /* Abstand zwischen den einzelnen Spalten */
     max-width: 1200px; /* Maximalbreite für den Container */
     margin: 0 auto; /* Zentriert den Container */
+    align-items: center; /* Vertikale Zentrierung der Spalten */
+    flex-wrap: wrap; /* Zeilenumbruch, wenn der Platz nicht ausreicht */
 }
 
 /* Stil für die einzelnen Leistungseinträge */
@@ -143,6 +146,7 @@ nav ul li a {
     flex-direction: column;
     border-radius: 10px; /* Optional: abgerundete Ecken für die Boxen */
     overflow: hidden; /* Verhindert, dass der Inhalt aus der Box überläuft */
+    margin-bottom: 20px; /* Abstand nach unten */
 }
 
 /* Stil für das Bild (75% der Höhe) */
