@@ -7,50 +7,53 @@
 
 
 
+/* Minimalistischer Header */
 header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #f3f3f3; /* Komplett weiß */
-    padding: 30px 50px; /* Weiter nach unten */
+    background-color: transparent; /* Transparent, um den minimalistischen Look zu unterstützen */
+    padding: 20px 0; /* Wenig Abstand oben und unten */
+    box-shadow: none; /* Kein Schatten für einen cleanen Look */
+}
+
+.navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    height: 90px; /* Größerer Header */
-    z-index: 10; /* Header immer oben */
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Dünne Linie für Struktur */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Abstand auf der Seite */
 }
 
-.header-title {
-    font-size: 1.5em;
+.logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif; /* Ästhetische Schriftart */
-    color: #262526;
-    text-transform: uppercase; /* Capslock */
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-
+    color: #333; /* Dunkles Grau für Kontrast */
+    text-transform: uppercase; /* Für einen modernen Look */
+    letter-spacing: 2px;
 }
 
-nav ul {
+.nav-links {
     list-style: none;
     display: flex;
-    gap: 50px; /* Mehr Abstand */
+    gap: 30px; /* Abstand zwischen den Links */
 }
 
-nav ul li {
-    display: inline;
+.nav-links li {
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
 }
 
-nav ul li a {
-    color: #7f8084; /* Graue Schrift */
+.nav-links a {
     text-decoration: none;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif; /* Ästhetische minimalistische Schrift */
-    font-weight: 500;
+    color: #333; /* Standardfarbe */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #5a5a5a; /* Schattierter Hover-Effekt für einen eleganten Look */
 }
 
 .contact-button {
