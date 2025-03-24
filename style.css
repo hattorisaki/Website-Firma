@@ -121,40 +121,49 @@ nav ul li a {
     z-index: 1;
 }
 
-/* Stil für die 'Leistungen'-Sektion */
+/* Setze den Hintergrund der gesamten Seite auf hellgrau */
+body {
+    background-color: #f0f0f0; /* Hellgrauer Hintergrund für die gesamte Seite */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stellt sicher, dass die 'Leistungen'-Sektion den gesamten Inhalt abdeckt */
 .leistungen {
     text-align: center;
     margin-top: 50px; /* Abstand nach oben */
     padding: 50px 0; /* Vertikaler Abstand um den gesamten Bereich */
-    background-color: #f0f0f0; /* Hellgrauer Hintergrund */
+    background-color: #f0f0f0; /* Hellgrauer Hintergrund für diesen Bereich */
+    min-height: 100vh; /* Mindestens die Höhe des Viewports */
 }
 
 /* Container für die drei Spalten */
 .leistungen-container {
-    display: flex; /* Macht die drei 'Leistungen' nebeneinander */
-    justify-content: space-between; /* Fügt Abstand zwischen den Spalten hinzu */
-    gap: 20px; /* Abstand zwischen den einzelnen Spalten */
-    max-width: 1200px; /* Maximalbreite für den Container */
-    margin: 0 auto; /* Zentriert den Container */
-    align-items: flex-start; /* Die Boxen nach oben ausrichten */
-    flex-wrap: wrap; /* Zeilenumbruch, wenn der Platz nicht ausreicht */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 /* Stil für die einzelnen Leistungseinträge */
 .leistung {
-    width: 30%; /* Reduziert die Breite der Spalten auf 30% */
+    width: 30%;
     display: flex;
     flex-direction: column;
-    border-radius: 10px; /* Optional: abgerundete Ecken für die Boxen */
-    overflow: hidden; /* Verhindert, dass der Inhalt aus der Box überläuft */
-    margin-bottom: 20px; /* Abstand nach unten */
-    height: 400px; /* Fixe Höhe für jedes Rechteck */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 400px;
 }
 
 /* Stil für das Bild (75% der Höhe) */
 .leistung-image {
     width: 100%;
-    height: 75%; /* Bild nimmt 75% der Höhe der Box ein */
+    height: 75%;
     background-size: cover;
     background-position: center;
 }
@@ -162,27 +171,14 @@ nav ul li a {
 /* Stil für die Info (25% der Höhe) */
 .leistung-info {
     padding: 20px;
-    background-color: #ffffff; /* Weiße Hintergrundfarbe für die Info */
-    height: 25%; /* Info-Bereich nimmt die restlichen 25% der Höhe ein */
+    background-color: #ffffff;
+    height: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertikale Zentrierung */
+    justify-content: center;
     text-align: left;
 }
 
-/* Titel der Leistung */
-.leistung-info h2 {
-    font-size: 1.2em; /* Kleinere Schrift für den Titel */
-    margin-bottom: 10px;
-}
-
-/* Beschreibung der Leistung */
-.leistung-info p {
-    font-size: 1em;
-    color: #333;
-}
-
-/* Footer anpassen: */
 footer {
     position: fixed;
     bottom: 0;
@@ -192,8 +188,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    font-size: 0.8em; /* Kleinere Schrift im Footer */
+    font-size: 0.8em;
 }
+
 
 /* Sicherstellen, dass der Footer immer am unteren Rand bleibt */
 body {
