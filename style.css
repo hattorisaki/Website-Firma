@@ -217,10 +217,117 @@ main {
     flex: 1;
 }
 
+/* Grundstil für Kontakt-Seite */
 .kontakt {
-    padding-top: 120px; /* Sorgt für genug Abstand nach dem Header */
+    background-color: #f4f4f4;
+    padding: 50px 0;
     text-align: center;
-    font-family: 'Playfair Display', serif; /* Ästhetische Schrift */
+    font-family: Arial, sans-serif;
+}
+
+.kontakt h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.kontakt-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kontakt-info {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.kontakt-info h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.kontakt-info p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.kontakt-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kontakt-info li {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+.kontakt-info li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.kontakt-info li a:hover {
+    color: #28a745;
+}
+
+.kontakt-info i {
+    margin-right: 10px;
+    color: #28a745;
+}
+
+/* Kontaktformular */
+.kontakt-formular {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kontakt-formular h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.kontakt-formular input,
+.kontakt-formular textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.kontakt-formular textarea {
+    height: 150px;
+}
+
+.kontakt-formular button.submit-btn {
+    background-color: #28a745;
+    color: white;
+    font-size: 1.1em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kontakt-formular button.submit-btn:hover {
+    background-color: #218838;
 }
 
 /* Menü-Icon (Hamburger) */
@@ -278,6 +385,15 @@ main {
     }
     .leistungen-container {
         grid-template-columns: repeat(2, 1fr); /* 2 Spalten */
+    }
+    .kontakt-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .kontakt-info,
+    .kontakt-formular {
+        width: 100%;
     }
 }
 
