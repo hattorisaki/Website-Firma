@@ -15,16 +15,16 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: white;
     padding: 15px 0;
-    text-align: center;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;  /* Buttons nach rechts verschieben */
     gap: 20px;
+    padding-right: 50px; /* Abstand vom rechten Rand */
 }
 
 nav ul li {
@@ -32,14 +32,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black; /* Schwarze Schrift */
     text-decoration: none;
     font-size: 18px;
 }
 
 .contact-button {
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 5px 10px;
 }
 
