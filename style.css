@@ -110,7 +110,7 @@ nav ul li a {
 /* Hintergrund der Startseite */
 .home-background {
     position: relative;
-    background-image: url('dein-bild.jpg'); /* Ersetze mit deinem echten Bild */
+    background-image: url('home-bg.jpg'); /* Ersetze mit deinem echten Bild */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Vollbild */
