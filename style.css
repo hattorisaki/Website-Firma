@@ -80,8 +80,7 @@ nav ul li a {
 
 .hero-content {
     font-family: 'Noto Sans', sans-serif; /* Ästhetische Schrift */
-    font-variation-settings:
-        "wdth" 800;
+    font-weight: 800;
     color: white;
     position: absolute;
     left: 10%; /* Weiter nach links verschieben */
