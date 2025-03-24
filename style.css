@@ -230,7 +230,7 @@ main {
     flex: 1;
 }
 
-.kontakt-section {
+.contact-section {
     padding-top: 120px; /* Sorgt für genug Abstand nach dem Header */
     text-align: center;
     font-family: 'Playfair Display', serif; /* Ästhetische Schrift */
