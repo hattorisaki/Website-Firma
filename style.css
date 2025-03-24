@@ -8,7 +8,6 @@
 body {
     background-color: #222;
     color: white;
-    padding-top: 100px; /* Gibt ausreichend Platz für den Header */
 }
 
 header {
@@ -22,8 +21,6 @@ header {
     justify-content: flex-end;
     align-items: center;
     height: 90px; /* Größerer Header */
-    z-index: 10; /* Sicherstellen, dass der Header immer oben bleibt */
-    box-shadow: none; /* Kein Balkeneffekt */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Dünne Linie für Struktur */
 }
 
@@ -112,6 +109,4 @@ nav ul li a {
     border-radius: 10px;
 }
 
-main {
-    padding-top: 50px; /* Weiterer Abstand zum Header */
-}
+
