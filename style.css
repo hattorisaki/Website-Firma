@@ -13,19 +13,22 @@ body {
 header {
     position: fixed;
     width: 100%;
-    top: 10px; /* Etwas nach unten verschieben */
+    top: 0;
     left: 0;
-    background: #ffffff; /* Reinweiß */
-    padding: 20px 50px; /* Größerer Abstand */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Leichter Schatten für mehr Tiefe */
-    border-radius: 10px; /* Abgerundete Kanten für ein moderneres Design */
+    background: white; /* Komplett weiß */
+    padding: 30px 50px; /* Weiter nach unten */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px; /* Größerer Header */
+    box-shadow: none; /* Kein Balkeneffekt */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Dünne Linie für Struktur */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
-    gap: 40px; /* Mehr Abstand zwischen den Buttons */
+    gap: 50px; /* Mehr Abstand */
 }
 
 nav ul li {
@@ -33,17 +36,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #666; /* Graue Schrift */
     text-decoration: none;
-    font-size: 20px; /* Etwas größer */
-    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; /* Ästhetische minimalistische Schrift */
+    font-weight: 500;
 }
 
 .contact-button {
-    font-weight: bold;
-    border: 2px solid black;
-    padding: 8px 15px;
+    font-weight: 600;
+    border: 2px solid #666;
+    padding: 8px 20px;
     border-radius: 5px;
+    color: #666;
+    background: transparent;
 }
 
 .hero {
