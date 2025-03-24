@@ -9,7 +9,7 @@
 
 /* Minimalistischer Header */
 header {
-    background-color: transparent; /* Transparent, um den minimalistischen Look zu unterstützen */
+    background-color: #f3f3f3; /* Transparent, um den minimalistischen Look zu unterstützen */
     padding: 20px 0; /* Wenig Abstand oben und unten */
     box-shadow: none; /* Kein Schatten für einen cleanen Look */
 }
