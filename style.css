@@ -121,5 +121,9 @@ nav ul li a {
     z-index: 1;
 }
 
+/* Verschiebt den gesamten Container der 'Leistungen' nach unten */
+.leistungen {
+    margin-top: 50px; /* Passt den Abstand nach unten an */
+}
 
 
