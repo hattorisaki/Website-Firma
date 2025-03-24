@@ -85,18 +85,18 @@ nav ul li a {
     color: white;
     position: absolute;
     left: 10%; /* Weiter nach links verschieben */
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
+    text-align: left;
 }
 
 .hero-content h1 {
-    font-size: 64px; /* Größer */
+    font-size: 4em; /* Größer */
     font-weight: bold;
 }
 
 .hero-content p {
-    font-size: 28px; /* Etwas größer */
-    margin: 15px 0;
+    font-size: 1.5em; /* Etwas größer */
 }
 
 .btn {
