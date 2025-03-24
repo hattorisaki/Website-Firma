@@ -121,9 +121,45 @@ nav ul li a {
     z-index: 1;
 }
 
-/* Verschiebt den gesamten Container der 'Leistungen' nach unten */
+/* Stil für die 'Leistungen'-Sektion */
 .leistungen {
-    margin-top: 50px; /* Passt den Abstand nach unten an */
+    text-align: center;
+    margin-top: 50px; /* Abstand nach oben */
 }
+
+/* Stil für die Leistungseinträge */
+.leistung {
+    display: flex;
+    margin-bottom: 30px; /* Abstand zwischen den Einträgen */
+}
+
+/* Stil für das Bild (75% Höhe) */
+.leistung-image {
+    width: 75%;
+    height: 200px; /* Höhe des Bildes */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Stil für die Info (25% Höhe) */
+.leistung-info {
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4; /* Leicht grauer Hintergrund */
+    text-align: left;
+}
+
+/* Titel der Leistung */
+.leistung-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Beschreibung der Leistung */
+.leistung-info p {
+    font-size: 1em;
+    color: #333;
+}
+
 
 
