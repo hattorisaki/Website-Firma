@@ -21,16 +21,58 @@
     </header>
 
     <main>
-        <section class="gallerie">
-            <h2>Unsere Projekte</h2>
-            <div class="gallery-images">
-                <!-- Beispielbilder, die du später anpassen kannst -->
-                <img src="https://via.placeholder.com/300" alt="Projekt 1">
-                <img src="https://via.placeholder.com/300" alt="Projekt 2">
-                <img src="https://via.placeholder.com/300" alt="Projekt 3">
-                <!-- Weitere Bilder hier hinzufügen -->
-            </div>
-        </section>
+        <section class="gallery">
+    <h1>Unsere Galerie</h1>
+    <div class="gallery-container" id="gallery-container">
+        <!-- Bilder werden hier automatisch eingefügt -->
+    </div>
+</section>
+
+<script>
+// Funktion, um Bilder aus einem Ordner hinzuzufügen
+function loadGallery() {
+    const galleryContainer = document.getElementById('gallery-container');
+    
+    // Beispielhafte Bilddateien - Du kannst hier deine eigenen Bilder manuell auflisten.
+    const images = [
+        'gallery/image1.jpg',
+        'gallery/image2.jpg',
+        'gallery/image3.jpg',
+        'gallery/image4.jpg',
+        'gallery/image5.jpg'
+    ];
+    
+    images.forEach(image => {
+        const imgElement = document.createElement('img');
+        imgElement.src = image; // Setze die Quelle des Bildes
+        imgElement.alt = 'Galeriebild'; // Alternativtext
+        imgElement.classList.add('gallery-item'); // Optional: Stil für jedes Bild
+        galleryContainer.appendChild(imgElement);
+    });
+}
+
+// Bilder laden, wenn die Seite geladen wird
+window.onload = loadGallery;
+</script>
+
+<style>
+/* Stil für die Galerie */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 Bilder pro Zeile */
+    gap: 20px; /* Abstand zwischen den Bildern */
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+</style>
+
     </main>
 
     <footer>
