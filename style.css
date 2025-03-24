@@ -13,18 +13,19 @@ body {
 header {
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 10px; /* Etwas nach unten verschieben */
     left: 0;
-    background: white;
-    padding: 15px 0;
+    background: #ffffff; /* Reinweiß */
+    padding: 20px 50px; /* Größerer Abstand */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Leichter Schatten für mehr Tiefe */
+    border-radius: 10px; /* Abgerundete Kanten für ein moderneres Design */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;  /* Buttons nach rechts verschieben */
-    gap: 20px;
-    padding-right: 50px; /* Abstand vom rechten Rand */
+    justify-content: flex-end;
+    gap: 40px; /* Mehr Abstand zwischen den Buttons */
 }
 
 nav ul li {
@@ -32,15 +33,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black; /* Schwarze Schrift */
+    color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px; /* Etwas größer */
+    font-weight: bold;
 }
 
 .contact-button {
     font-weight: bold;
     border: 2px solid black;
-    padding: 5px 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
 }
 
 .hero {
