@@ -127,25 +127,38 @@ nav ul li a {
     margin-top: 50px; /* Abstand nach oben */
 }
 
-/* Stil für die Leistungseinträge */
-.leistung {
-    display: flex;
-    margin-bottom: 30px; /* Abstand zwischen den Einträgen */
+/* Container für die drei Spalten */
+.leistungen-container {
+    display: flex; /* Macht die drei 'Leistungen' nebeneinander */
+    justify-content: space-between; /* Fügt Abstand zwischen den Spalten hinzu */
+    gap: 20px; /* Abstand zwischen den einzelnen Spalten */
 }
 
-/* Stil für das Bild (75% Höhe) */
+/* Stil für die einzelnen Leistungseinträge */
+.leistung {
+    width: 32%; /* Jede Spalte nimmt 32% der Gesamtbreite ein */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px; /* Optional: abgerundete Ecken für die Boxen */
+    overflow: hidden; /* Verhindert, dass der Inhalt aus der Box überläuft */
+}
+
+/* Stil für das Bild (75% der Höhe) */
 .leistung-image {
-    width: 75%;
-    height: 200px; /* Höhe des Bildes */
+    width: 100%;
+    height: 75%; /* Bild nimmt 75% der Höhe der Box ein */
     background-size: cover;
     background-position: center;
 }
 
-/* Stil für die Info (25% Höhe) */
+/* Stil für die Info (25% der Höhe) */
 .leistung-info {
-    width: 25%;
     padding: 20px;
-    background-color: #f4f4f4; /* Leicht grauer Hintergrund */
+    background-color: #f4f4f4;
+    height: 25%; /* Info-Bereich nimmt die restlichen 25% der Höhe ein */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertikale Zentrierung */
     text-align: left;
 }
 
