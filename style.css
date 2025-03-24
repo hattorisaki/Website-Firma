@@ -68,17 +68,6 @@ nav ul li a {
     background: url('home-bg.jpg') no-repeat center center/cover;
 }
 
-/* Stil für den Haupttext auf dem Hintergrundbild */
-.hero-text {
-    font-size: 2.5em;
-    font-weight: bold;
-    font-family: 'Playfair Display', serif; /* Ästhetische Schrift */
-    color: white;
-    position: absolute;
-    left: 10%; /* Weiter nach links verschieben */
-    top: 40%;
-    transform: translateY(-50%);
-}
 
 .overlay {
     position: absolute;
@@ -90,11 +79,14 @@ nav ul li a {
 }
 
 .hero-content {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif; /* Ästhetische Schrift */
+    color: white;
     position: absolute;
-    top: 50%;
-    left: 30%;  /* Weiter nach links verschieben */
-    transform: translate(-30%, -50%);
-    text-align: left; /* Text linksbündig */
+    left: 10%; /* Weiter nach links verschieben */
+    top: 40%;
+    transform: translateY(-50%);
 }
 
 .hero-content h1 {
