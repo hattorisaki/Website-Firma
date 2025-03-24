@@ -55,7 +55,7 @@ nav ul li a {
 
 .contact-button {
     font-weight: 600;
-    border: 2px solid #666;
+    border: 2px solid #262526;
     padding: 8px 20px;
     border-radius: 5px;
     color: #262526;
@@ -137,7 +137,7 @@ nav ul li a {
 
 /* Setze den Hintergrund der gesamten Seite auf hellgrau */
 body {
-    background-color: #d7d8da; /* Hellgrauer Hintergrund für die gesamte Seite */
+    background-color: #afb2b7; /* Hellgrauer Hintergrund für die gesamte Seite */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -147,7 +147,7 @@ body {
 .leistungen {
     text-align: center;
     padding: 50px 0;
-    background-color: #7f8084;
+    background-color: #afb2b7;
     min-height: 100vh; /* Mindestens die gesamte Höhe des Bildschirms */
     display: flex;
     align-items: center; /* Vertikal zentrieren */
@@ -190,7 +190,7 @@ body {
 /* Stil für die einzelnen Leistungseinträge */
 .leistung-info {
     padding: 20px;
-    background-color: #d7d8da;
+    background-color: #7f8084;
     height: 25%;
     display: flex;
     flex-direction: column;
@@ -236,7 +236,7 @@ main {
     font-family: 'Playfair Display', serif; /* Ästhetische Schrift */
 }
 
-/* Standardmäßig ist das Icon unsichtbar */
+/* Menü-Icon (Hamburger) */
 .menu-icon {
     display: none;
     font-size: 2em;
@@ -244,6 +244,7 @@ main {
     position: absolute;
     top: 15px;
     right: 20px;
+    z-index: 1001; /* Macht das Menü-Icon immer oben */
 }
 
 /* Smartphones: Text kleiner & mittiger */
@@ -278,6 +279,7 @@ main {
         width: 100%;
         padding: 10px 0;
         text-align: center;
+        z-index: 1000; /* Menü soll über anderem Inhalt sein */
     }
 
     nav ul.show {
