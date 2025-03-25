@@ -99,15 +99,12 @@ header {
     font-weight: 600;
     border: 2px solid #262526;
     padding: 8px 20px;
-    border-radius: 4px;
+    border-radius: 2px;
     color: #262526;
     background: transparent;
 }
 
-.mobile-menu .contact-button {
-    width: 100%; /* Damit es im Menü schön passt */
-    margin-top: 20px; /* Abstand zum nächsten Element */
-}
+
 
 .hero {
     position: relative;
