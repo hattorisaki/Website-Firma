@@ -173,7 +173,7 @@ header {
     background-position: center;
     height: 100vh; /* Vollbild */
     padding-top: 90px; /* Abstand zum Header */
-    z-index: 1;
+    z-index: 10;
 }
 
 /* Setze den Hintergrund der gesamten Seite auf hellgrau */
@@ -230,8 +230,6 @@ body {
     font-size: 1em;
     color: #666;
 }
-
-
 
 footer {
     position: fixed;
