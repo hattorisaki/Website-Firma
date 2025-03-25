@@ -78,6 +78,7 @@ header {
     z-index: 100; /* Hoher Wert, damit es über allem liegt */
 }
 
+
 .mobile-menu a {
     padding: 15px;
     text-decoration: none;
@@ -101,6 +102,11 @@ header {
     border-radius: 4px;
     color: #262526;
     background: transparent;
+}
+
+.mobile-menu .contact-button {
+    width: 100%; /* Damit es im Menü schön passt */
+    margin-top: 20px; /* Abstand zum nächsten Element */
 }
 
 .hero {
