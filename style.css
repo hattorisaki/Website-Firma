@@ -108,14 +108,14 @@ header {
 .mobile-menu .contact-button {
     font-weight: 600;
     border: 2px solid #262526;
-    padding: 10px 25px;
-    border-radius: 4px;
+    padding: 5px 10px;
+    border-radius: 1px;
     color: #262526;
     background: transparent;
-    width: 100%; /* Button auf die gesamte Breite setzen */
+    width: 75%; /* Button auf die gesamte Breite setzen */
     text-align: center; /* Text zentrieren */
     box-sizing: border-box; /* Um das Padding korrekt zu berücksichtigen */
-    margin-top: 20px; /* Abstand zu den anderen Links */
+    margin-top: 10px; /* Abstand zu den anderen Links */
 }
 
 .hero {
