@@ -375,9 +375,6 @@ main {
         z-index: 1000; /* Menü soll über anderem Inhalt sein */
     }
 
-    navbar.show {
-        display: flex; /* Zeigt die Navigation an */
-    }
 
     .menu-icon {
         display: block;
