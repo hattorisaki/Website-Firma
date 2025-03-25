@@ -415,6 +415,9 @@ main {
     .mobile-menu.show {
         display: flex;
     }
+    .mobile-menu {
+        width: 300px; /* Größeres Menü auf größeren Bildschirmen */
+    }
 }
 
 
