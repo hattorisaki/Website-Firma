@@ -362,7 +362,7 @@ main {
     }
 
     /* Navigation auf Mobilgeräten */
-   nav ul {
+   navbar {
         display: none; /* Standardmäßig ausgeblendet */
         flex-direction: column;
         background: white;
@@ -375,7 +375,7 @@ main {
         z-index: 1000; /* Menü soll über anderem Inhalt sein */
     }
 
-    nav ul.show {
+    navbar.show {
         display: flex; /* Zeigt die Navigation an */
     }
 
