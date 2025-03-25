@@ -380,6 +380,36 @@ main {
     background-color: #218838;
 }
 
+/* Allgemeine Layout-Stile für die About-Seite */
+.about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 30px;
+}
+
+.about p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
 
 /* Smartphones: Text kleiner & mittiger */
 @media (max-width: 768px) {
