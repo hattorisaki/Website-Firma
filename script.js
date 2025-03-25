@@ -1,4 +1,3 @@
 function toggleMenu() {
-    var menu = document.getElementById("nav-links");
-    menu.classList.toggle("show");
-}
+        document.getElementById("mobileMenu").classList.toggle("show");
+    }
