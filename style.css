@@ -84,7 +84,7 @@ header {
     text-decoration: none;
     color: #333;
     display: block;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
 }
 
 .mobile-menu a:hover {
