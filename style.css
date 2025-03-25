@@ -6,9 +6,11 @@
 }
 
 header {
-     background-color: #f3f3f3; /* Transparent, um den minimalistischen Look zu unterstützen */
-     padding: 20px 0; /* Wenig Abstand oben und unten */
-     box-shadow: none; /* Kein Schatten für einen cleanen Look */
+    background-color: #f3f3f3; /* Transparent, um den minimalistischen Look zu unterstützen */
+    padding: 20px 0; /* Wenig Abstand oben und unten */
+    box-shadow: none; /* Kein Schatten für einen cleanen Look */
+    position: relative;  /* Position relativ, damit Z-Index funktioniert */
+    z-index: 10; /* Niedriger Wert, damit das Menü oben bleibt */
  }
 
 .navbar {
@@ -73,6 +75,7 @@ header {
     width: 200px;
     border-radius: 5px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100; /* Hoher Wert, damit es über allem liegt */
 }
 
 .mobile-menu a {
