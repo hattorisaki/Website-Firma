@@ -6,14 +6,6 @@
 }
 
 
-
-/* Minimalistischer Header */
-header {
-    background-color: #f3f3f3; /* Transparent, um den minimalistischen Look zu unterstützen */
-    padding: 20px 0; /* Wenig Abstand oben und unten */
-    box-shadow: none; /* Kein Schatten für einen cleanen Look */
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,6 +14,8 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px; /* Abstand auf der Seite */
+    background-color: #f3f3f3;
+    color: white;
 }
 
 .logo h1 {
@@ -362,7 +356,7 @@ main {
     }
 
     /* Navigation auf Mobilgeräten */
-   navbar {
+   .navbar {
         display: none; /* Standardmäßig ausgeblendet */
         flex-direction: column;
         background: white;
@@ -375,6 +369,9 @@ main {
         z-index: 1000; /* Menü soll über anderem Inhalt sein */
     }
 
+    .nav-links {
+        display: none
+    }
 
     .menu-icon {
         display: block;
