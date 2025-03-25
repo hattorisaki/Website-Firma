@@ -96,7 +96,7 @@ header {
 
 .contact-button {
     font-weight: 600;
-    border: 1px solid #262526;
+    border: 2px solid #262526;
     padding: 8px 20px;
     border-radius: 4px;
     color: #262526;
@@ -383,6 +383,11 @@ main {
     }
 
     .btn {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .contact-button {
         font-size: 1em;
         padding: 10px 20px;
     }
