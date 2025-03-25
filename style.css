@@ -189,6 +189,7 @@ header {
     background-image: url('home-bg.jpg'); /* Ersetze mit deinem echten Bild */
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh; /* Vollbild */
     padding-top: 90px; /* Abstand zum Header */
     z-index: 10;
