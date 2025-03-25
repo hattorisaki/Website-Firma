@@ -104,7 +104,10 @@ header {
     background: transparent;
 }
 
-
+.mobile-menu .contact-button {
+    width: 100%; /* Damit es im Menü schön passt */
+    margin-top: 20px; /* Abstand zum nächsten Element */
+}
 
 .hero {
     position: relative;
