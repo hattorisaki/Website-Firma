@@ -360,24 +360,6 @@ main {
         padding: 10px 20px;
     }
 
-    /* Navigation auf Mobilgeräten */
-   .navbar {
-        display: none; /* Standardmäßig ausgeblendet */
-        flex-direction: column;
-        background: white;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        padding: 10px 0;
-        text-align: center;
-        z-index: 1000; /* Menü soll über anderem Inhalt sein */
-    }
-
-    .nav-links {
-        display: none
-    }
-
     .menu-icon {
         display: block;
     }
@@ -394,14 +376,7 @@ main {
         width: 100%;
     }
 
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .nav-links {
-        flex-direction: column;
-        gap: 20px;
-    }
+    
 }
 
 
