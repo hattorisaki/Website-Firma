@@ -170,18 +170,60 @@ header {
     border-radius: 5px;
 }
 
-.gallery-images {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+.gallery-container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.gallery-images img {
-    width: 100%;
+.gallery {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Versteckt den Scrollbalken in Firefox */
+    -ms-overflow-style: none; /* Versteckt den Scrollbalken in IE */
+}
+
+.gallery::-webkit-scrollbar {
+    display: none; /* Versteckt den Scrollbalken in Chrome/Safari */
+}
+
+.gallery img {
+    width: 300px; /* Größe der Bilder */
     height: auto;
     border-radius: 10px;
+    flex-shrink: 0; /* Bilder werden nicht kleiner */
 }
+
+/* Buttons für Navigation */
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.scroll-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
 
 /* Hintergrund der Startseite */
 .home-background {
