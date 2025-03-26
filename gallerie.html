@@ -31,73 +31,21 @@
      </div>
     </header>
 
-    <main>
-        <section class="gallery">
-    <h1>Unsere Galerie</h1>
-    <div class="gallery-container" id="gallery-container">
-        <!-- Bilder werden hier automatisch eingefügt -->
+   <div class="gallery-container">
+    <button class="scroll-btn left" onclick="scrollGallery(-1)">&#10094;</button> <!-- Linker Pfeil -->
+    
+    <div class="gallery">
+        <img src="bild1.jpg" alt="Bild 1">
+        <img src="bild2.jpg" alt="Bild 2">
+        <img src="bild3.jpg" alt="Bild 3">
+        <img src="bild4.jpg" alt="Bild 4">
+        <img src="bild5.jpg" alt="Bild 5">
     </div>
-</section>
-
-<script>
-// Funktion, um Bilder aus einem Ordner hinzuzufügen
-function loadGallery() {
-    const galleryContainer = document.getElementById('gallery-container');
     
-    // Beispielhafte Bilddateien - Du kannst hier deine eigenen Bilder manuell auflisten.
-    const images = [
-        'gallery/image1.JPG',
-        'gallery/image2.JPG',
-        'gallery/image3.JPG',
-        'gallery/image4.JPG',
-        'gallery/image5.JPG',
-        'gallery/image6.JPG',
-        'gallery/image7.JPG',
-        'gallery/image8.JPG',
-        'gallery/image9.JPG',
-        'gallery/image10.JPG',
-        'gallery/image11.JPG',
-        'gallery/image12.JPG',
-        'gallery/image13.JPG',
-        'gallery/image14.JPG',
-        'gallery/image15.JPG',
-        'gallery/image16.JPG',
-        'gallery/image17.JPG',
-        'gallery/image18.JPG',
-    ];
+    <button class="scroll-btn right" onclick="scrollGallery(1)">&#10095;</button> <!-- Rechter Pfeil -->
+</div>
+
     
-    images.forEach(image => {
-        const imgElement = document.createElement('img');
-        imgElement.src = image; // Setze die Quelle des Bildes
-        imgElement.alt = 'Galeriebild'; // Alternativtext
-        imgElement.classList.add('gallery-item'); // Optional: Stil für jedes Bild
-        galleryContainer.appendChild(imgElement);
-    });
-}
-
-// Bilder laden, wenn die Seite geladen wird
-window.onload = loadGallery;
-</script>
-
-<style>
-/* Stil für die Galerie */
-.gallery-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 Bilder pro Zeile */
-    gap: 20px; /* Abstand zwischen den Bildern */
-    padding: 20px;
-}
-
-.gallery-item {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
-}
-</style>
-
-    </main>
 
     <footer>
         <p>© 2025 Gheorghe Cainareanu. Alle Rechte vorbehalten.</p>
