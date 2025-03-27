@@ -451,15 +451,12 @@ main {
 }
 
 .leistung-text {
-    font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
     font-size: 1.2em;
-    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
     color: #333;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center; /* Überschrift zentrieren */
-    width: 100%; /* Volle Breite */
-    margin-bottom: 20px; /* Abstand zum Container */
 }
 
 
