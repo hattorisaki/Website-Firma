@@ -435,6 +435,12 @@ main {
     background-color: #218838;
 }
 
+.map-container {
+    margin-top: 15px; /* Abstand zum vorherigen Text */
+    border-radius: 8px; /* Abgerundete Ecken */
+    overflow: hidden;
+}
+
 .about-text {
     max-width: 600px;
     margin: 50px auto;
