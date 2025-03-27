@@ -254,6 +254,7 @@ body {
     display: flex;
     align-items: center; /* Vertikal zentrieren */
     justify-content: center; /* Falls nötig, horizontal zentrieren */
+    margin-top: -20px;
 }
 
 
