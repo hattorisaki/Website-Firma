@@ -451,12 +451,14 @@ main {
 }
 
 .leistung-text {
-    max-width: 600px;
-    margin: 50px auto;
-    font-size: 1.2em;
-    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em; /* Gleiche Größe wie Über Uns */
+    font-weight: bold;
+    color: #333; /* Gleiche Farbe */
+    text-transform: uppercase; /* Einheitlicher Look */
+    letter-spacing: 2px; /* Gleiche Abstände */
     text-align: center;
-    color: #333;
+    margin-bottom: 40px; /* Abstand nach unten */
 }
 
 
