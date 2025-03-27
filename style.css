@@ -261,8 +261,18 @@ body {
     min-height: 100vh; /* Mindestens die gesamte Höhe des Bildschirms */
     display: flex;
     align-items: center; /* Vertikal zentrieren */
-    justify-content: center; /* Falls nötig, horizontal zentrieren */
+    justify-content: flex-start; /* Falls nötig, horizontal zentrieren */
+    flex-direction: column; /* Setzt die Elemente untereinander */
     margin-top: -20px;
+}
+
+.leistung-text {
+    max-width: 600px;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
 }
 
 
