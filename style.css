@@ -469,6 +469,14 @@ main {
     color: #333;
 }
 
+.kontakt-text {
+    max-width: 600px;
+    margin: 50px auto;
+    font-size: 2.0em;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+}
 
 /* Smartphones: Text kleiner & mittiger */
 @media (max-width: 768px) {
