@@ -450,6 +450,15 @@ main {
     color: #333;
 }
 
+.leistung-text {
+    max-width: 600px;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+}
+
 
 /* Smartphones: Text kleiner & mittiger */
 @media (max-width: 768px) {
