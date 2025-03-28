@@ -15,8 +15,10 @@ html {
 }
 
 #galerie {
-    scroll-margin-buttom: 200px; /* Mehr Abstand, falls nötig */
+    position: relative;
+    top: -100px; /* Passe den Wert an, bis es passt */
 }
+
 
 header {
     background-color: #f3f3f3; /* Transparent, um den minimalistischen Look zu unterstützen */
