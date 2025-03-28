@@ -15,7 +15,7 @@ html {
 }
 
 #galerie {
-    scroll-margin-top: 50px; /* Mehr Abstand, falls nötig */
+    scroll-margin-top: 1000px; /* Mehr Abstand, falls nötig */
 }
 
 header {
