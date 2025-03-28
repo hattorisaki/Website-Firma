@@ -18,6 +18,10 @@ html {
     scroll-margin-top: 1000px; /* Mehr Abstand, falls nötig */
 }
 
+#galerie-text {
+    scroll-margin-top: 1000px; /* Mehr Abstand, falls nötig */
+}
+
 header {
     background-color: #f3f3f3; /* Transparent, um den minimalistischen Look zu unterstützen */
     top: 0;
