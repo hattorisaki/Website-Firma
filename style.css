@@ -17,7 +17,7 @@ html {
 #galerie::before {
     content: "";
     display: block;
-    height: 100px; /* Höhe anpassen */
+    height: 200px; /* Höhe anpassen */
     margin-top: -100px; /* Gleicher negativer Wert */
 }
 
