@@ -14,8 +14,11 @@ html {
     scroll-margin-top: 100px; /* Mehr Abstand, falls nötig */
 }
 
-#galerie {
-    scroll-margin-top: 100px;
+#galerie::before {
+    content: "";
+    display: block;
+    height: 100px; /* Höhe anpassen */
+    margin-top: -100px; /* Gleicher negativer Wert */
 }
 
 
