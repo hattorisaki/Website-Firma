@@ -16,7 +16,8 @@ html {
 
 #galerie {
     position: relative;
-    top: 100px; /* Passe den Wert an, bis es passt */
+    top: 50px; /* Passe den Wert an, bis es passt */
+    scroll-margin-top: 100px;
 }
 
 
