@@ -10,6 +10,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#about, #galerie {
+    scroll-margin-top: 150px; /* Mehr Abstand, falls nötig */
+}
+
 
 header {
     background-color: #f3f3f3; /* Transparent, um den minimalistischen Look zu unterstützen */
